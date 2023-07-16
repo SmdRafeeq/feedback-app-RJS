@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  font-family: 'Roboto';
+}
+
+.feedback-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 50%;
+  height: 50%;
+  padding: 25px;
+}
+
+.feedback-question {
+  font-size: 30px;
+  color: #0f172a;
+  text-align: center;
+}
+
+.emojis-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 30px 0;
+}
+
+.emoji-btn {
+  width: 100px;
+  background-color: transparent;
+  border: none;
+}
+
+.emoji {
+  width: 80px;
+}
+
+.love-emoji {
+  width: 100px;
+  margin: 5px 0;
+}
+
+.emoji-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-top: 10px;
+}
+
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thankyou-text {
+  font-size: 26px;
+  color: #1e293b;
+  margin: 5px 0;
+}
+
+.description {
+  font-size: 18px;
+  color: #1e293b;
+  margin: 5px 0;
+}
